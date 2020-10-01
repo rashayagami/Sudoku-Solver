@@ -100,9 +100,9 @@ int main()
 {
     int mat[9][9]={{0}},ques[9][9]={{0}},sol[9][9]={{0}};
     char choice,c;
-    cout<<"1.Solve a Sudoku \n";
-    cout<<"2.Check Solution \n";
-    cout<<"3.Exit \n";
+    cout<<"1.Solve Sudoku \n";
+    cout<<"2.Check the Solution \n";
+    cout<<"3.Exit sudoku \n";
     cout<<"Enter the choice : ";
     choice=cin.get();
        switch(choice)
