@@ -3,7 +3,7 @@
 using namespace std;
 bool issafetoput(int mat[9][9],int i,int j,int n,int number)
 {
-    for(int k=0;k<n;k++)
+    for(int k=0;k<n;k)
     {
         if(mat[i][k]==number || mat[k][j]==number)
         {
