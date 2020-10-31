@@ -18,7 +18,7 @@ bool issafetoput(int mat[9][9],int i,int j,int n,int number)
 
      for(int k=starti;k<starti+n;k++)
      {
-         for(int l=startj;l<startj+n;l++)
+         for(int l=startj;l<startj+n;l)
          {
              if(mat[k][l]==number)
                 return false;
